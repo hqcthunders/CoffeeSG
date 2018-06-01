@@ -37,7 +37,7 @@
                     <tr>
                         <td>{{ data['name'] }}</td>
                         <td>{{ data['rating'] }}</td>
-                        <td><a style="color: blue,text-decoration: None" href="{{
+                        <td><a style="text-decoration: None" href="{{
                         url_for("coffee", id=data["place_id"])}}">{{ data["vicinity"] }}</a></td>
                 {% endfor %}
                 </tbody>
